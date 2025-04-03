@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Šachová Akademie</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        .section {
+            background: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+    <script>
+        function showMessage(message) {
+            alert(message);
+        }
+    </script>
+</head>
+<body>
+    <header>
+        Šachová Akademie
+    </header>
+    
+    <div class="container">
+        <div class="section">
+            <h2>Šachové tréninky</h2>
+            <p>Nabízíme individuální i skupinové lekce pro hráče všech úrovní.</p>
+            <button onclick="showMessage('Více informací o šachových trénincích!')">Více informací</button>
+        </div>
+        
+        <div class="section">
+            <h2>Kurzy zahájení</h2>
+            <p>Vylepšete své zahájení s našimi profesionálními trenéry.</p>
+            <button onclick="showMessage('Více informací o kurzech zahájení!')">Více informací</button>
+        </div>
+        
+        <div class="section">
+            <h2>Příprava na turnaje</h2>
+            <p>Strategická a psychologická příprava pro úspěšné turnajové výsledky.</p>
+            <button onclick="showMessage('Více informací o přípravě na turnaje!')">Více informací</button>
+        </div>
+    </div>
+    
+    <footer>
+        © 2025 Šachová Akademie | Všechna práva vyhrazena
+    </footer>
+</body>
+</html>
